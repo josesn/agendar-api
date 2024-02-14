@@ -24,8 +24,8 @@ $  npm  install
 	.
 	.
 	datasource db {
-		 provider = "postgresql"
-		 url :	"postgresql://<user>:<password>@db:5432/<db_name>"
+		provider = "postgresql"
+		url      = "postgresql://username:password@localhost:5432/db_name" 
 	}
 	.
 	.

@@ -7,7 +7,8 @@ generator client {
 
 datasource db {
   provider = "postgresql"
-  url      =  "postgresql://dev_user:devuser@db:5432/scheduling_dev_db" //docker url
+  url      = "postgresql://username:password@localhost:5432/db_name"
+  // url      = "postgresql://dev_user:devuser@db:5431/scheduling_db" //docker url
 }
 
 model User {
